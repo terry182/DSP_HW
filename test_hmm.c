@@ -9,7 +9,7 @@ int main()
 	dump_models( hmms, 5);
 */
 	HMM hmm_initial;
-	loadHMM( &hmm_initial, "model_init.txt" );
+	loadHMM( &hmm_initial, "../model_init.txt" );
 	dumpHMM( stderr, &hmm_initial );
 
 	printf("%f\n", log(1.5) ); // make sure the math library is included
