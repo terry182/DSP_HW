@@ -1,6 +1,6 @@
 .PHONY: all clean run_train
 
-CFLAGS+= -std=c99
+CFLAGS+= -g
 LDFLAGS+=-lm     # link to math library
 
 TARGET=test_hmm train
